@@ -5,8 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Implementation Tool</title>
+    <link rel="stylesheet" href="CSS/main.css">
 </head>
 <body>
-    
+
+    <!--This is the container for all of the elements on the page-->
+    <div class="wrapper">
+        <!--This is the container for all of the elements in the header-->
+        <header>
+            <!--This is the first element (a - Hyperlink) (The logo) that you can click on and will go to a specific link when you click on it -->
+            <a href="http://127.0.0.1:5500/index.html" class="logo">
+                Implementation<span>Tool</span>
+            </a>
+
+            <!--This is the second element (ul - Unordered List) that acts as another container that holds the last 4 elements in the header-->
+            
+            <ul>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">Dealers</a></li>
+                <li><a href="#">Pipeline</a></li>
+                <li><a href="#">Resources</a></li>
+            </ul>
+
+        </header>
+
+
+                <!--Section is a container used to seperate sections of the page-->
+
+        <!--this is the container that holds all of the elements for the Dealers Onboarded within a certain time range box-->
+        <section class="dashboardDealersOnboardedTimeRange">
+            <ul>
+                <!--h1 (Heading 1) is the biggest text that grabs the user's attention-->
+                <li><h1>Dealers Onboarded</h1></li>
+                <li><h1>From</h1></li>
+                <li><h1>To</h1></li>
+            </ul>
+        </section>
+
+        <!--This is the container that holds all of the elements for the Dealers Being Onboarded box-->
+        <section class="dashboardDealersBeingOnboarded">
+            <h1>Dealers Being Onboarded</h1>
+
+        </section>
+
+        <!--This is the container that holds all of the elements for the Dealers onboarded box-->
+        <section class="dashboardDealersOnboarded">
+            <h1>Dealers Onboarded</h1>
+            <ul>
+                <li><h2>New Business</h2></li>
+                <li><h2>Conversions</h2></li>
+                <li><h2>Acquisitions</h2></li>
+            </ul>
+        </section>
+
+
+
+
+
+
+
+
+    </div>
 </body>
 </html>
